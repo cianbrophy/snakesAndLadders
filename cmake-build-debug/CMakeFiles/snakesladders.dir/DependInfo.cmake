@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/cianbrophy/Desktop/snakesladders/dice.cpp" "/Users/cianbrophy/Desktop/snakesladders/cmake-build-debug/CMakeFiles/snakesladders.dir/dice.cpp.o"
   "/Users/cianbrophy/Desktop/snakesladders/draw.cpp" "/Users/cianbrophy/Desktop/snakesladders/cmake-build-debug/CMakeFiles/snakesladders.dir/draw.cpp.o"
   "/Users/cianbrophy/Desktop/snakesladders/main.cpp" "/Users/cianbrophy/Desktop/snakesladders/cmake-build-debug/CMakeFiles/snakesladders.dir/main.cpp.o"
   "/Users/cianbrophy/Desktop/snakesladders/score.cpp" "/Users/cianbrophy/Desktop/snakesladders/cmake-build-debug/CMakeFiles/snakesladders.dir/score.cpp.o"

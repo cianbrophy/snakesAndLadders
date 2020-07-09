@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/cianbrophy/Desktop/snakesladders/dice.cpp">
+			<Option target="snakesladders"/>
+		</Unit>
+		<Unit filename="/Users/cianbrophy/Desktop/snakesladders/dice.h">
+			<Option target="snakesladders"/>
+		</Unit>
 		<Unit filename="/Users/cianbrophy/Desktop/snakesladders/draw.cpp">
 			<Option target="snakesladders"/>
 		</Unit>

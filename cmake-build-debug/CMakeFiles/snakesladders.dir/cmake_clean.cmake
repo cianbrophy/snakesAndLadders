@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/snakesladders.dir/dice.cpp.o"
   "CMakeFiles/snakesladders.dir/draw.cpp.o"
   "CMakeFiles/snakesladders.dir/main.cpp.o"
   "CMakeFiles/snakesladders.dir/score.cpp.o"

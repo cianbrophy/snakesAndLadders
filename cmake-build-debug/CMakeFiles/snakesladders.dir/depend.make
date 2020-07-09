@@ -6,7 +6,9 @@ CMakeFiles/snakesladders.dir/draw.cpp.o: ../draw.h
 
 CMakeFiles/snakesladders.dir/main.cpp.o: ../draw.h
 CMakeFiles/snakesladders.dir/main.cpp.o: ../main.cpp
+CMakeFiles/snakesladders.dir/main.cpp.o: ../score.h
 
+CMakeFiles/snakesladders.dir/score.cpp.o: ../draw.h
 CMakeFiles/snakesladders.dir/score.cpp.o: ../score.cpp
 CMakeFiles/snakesladders.dir/score.cpp.o: ../score.h
 

@@ -123,6 +123,33 @@ snakesladders/fast:
 	$(MAKE) -f CMakeFiles/snakesladders.dir/build.make CMakeFiles/snakesladders.dir/build
 .PHONY : snakesladders/fast
 
+dice.o: dice.cpp.o
+
+.PHONY : dice.o
+
+# target to build an object file
+dice.cpp.o:
+	$(MAKE) -f CMakeFiles/snakesladders.dir/build.make CMakeFiles/snakesladders.dir/dice.cpp.o
+.PHONY : dice.cpp.o
+
+dice.i: dice.cpp.i
+
+.PHONY : dice.i
+
+# target to preprocess a source file
+dice.cpp.i:
+	$(MAKE) -f CMakeFiles/snakesladders.dir/build.make CMakeFiles/snakesladders.dir/dice.cpp.i
+.PHONY : dice.cpp.i
+
+dice.s: dice.cpp.s
+
+.PHONY : dice.s
+
+# target to generate assembly for a file
+dice.cpp.s:
+	$(MAKE) -f CMakeFiles/snakesladders.dir/build.make CMakeFiles/snakesladders.dir/dice.cpp.s
+.PHONY : dice.cpp.s
+
 draw.o: draw.cpp.o
 
 .PHONY : draw.o
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... snakesladders"
+	@echo "... dice.o"
+	@echo "... dice.i"
+	@echo "... dice.s"
 	@echo "... draw.o"
 	@echo "... draw.i"
 	@echo "... draw.s"
