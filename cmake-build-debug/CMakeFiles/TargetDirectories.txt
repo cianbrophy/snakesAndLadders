@@ -1,0 +1,3 @@
+/Users/cianbrophy/Desktop/snakesladders/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/cianbrophy/Desktop/snakesladders/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/cianbrophy/Desktop/snakesladders/cmake-build-debug/CMakeFiles/snakesladders.dir

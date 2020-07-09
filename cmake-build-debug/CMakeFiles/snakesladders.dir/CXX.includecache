@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/cianbrophy/Desktop/snakesladders/draw.h
+
+/Users/cianbrophy/Desktop/snakesladders/main.cpp
+iostream
+-
+time.h
+-
+stdlib.h
+-
+stdio.h
+-
+curses.h
+-
+draw.h
+/Users/cianbrophy/Desktop/snakesladders/draw.h
+
