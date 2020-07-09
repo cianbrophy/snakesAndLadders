@@ -27,6 +27,6 @@ void gamescore(char name1[], char name2[], int p1, int p2)
     std::cout << "\n\t\t GAME STATUS\n";
     draw_line(50, '~');
     std::cout << "\n --->" << name1 << " is at position " << p1;
-    std::cout << "\n --->" << name2 << " is at position " << p2;
+    std::cout << "\n --->" << name2 << " is at position " << p2 << "\n";
     draw_line(50, '_');
 }

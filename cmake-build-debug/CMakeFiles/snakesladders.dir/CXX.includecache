@@ -6,23 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/Users/cianbrophy/Desktop/snakesladders/draw.h
-
-/Users/cianbrophy/Desktop/snakesladders/main.cpp
+/Users/cianbrophy/Desktop/snakesladders/dice.cpp
+dice.h
+/Users/cianbrophy/Desktop/snakesladders/dice.h
+cstdlib
+-
 iostream
 -
-time.h
+ctime
 -
-stdlib.h
--
-stdio.h
--
-curses.h
--
-draw.h
+
+/Users/cianbrophy/Desktop/snakesladders/dice.h
+
 /Users/cianbrophy/Desktop/snakesladders/draw.h
+
+/Users/cianbrophy/Desktop/snakesladders/score.cpp
 score.h
 /Users/cianbrophy/Desktop/snakesladders/score.h
+draw.h
+/Users/cianbrophy/Desktop/snakesladders/draw.h
+iostream
+-
 
 /Users/cianbrophy/Desktop/snakesladders/score.h
 
