@@ -8,15 +8,27 @@
 #include <iostream>
 #include <ctime>
 
+// The dice is rolled
 void play_dice(int &score)
 {
     int dice;
+
+    // srand is seeded to 0 to remove the occurrence of pseudorandom numbers
     srand(time(nullptr));
+
+    // The dice is rolled to get a value between 1 and 6
     dice = rand() % 6 + 1;
+
+    // The dice role and new position are presented and the score is updated
     std::cout << "You rolled a " << dice << "!\n";
     score = score + dice;
     std::cout << "You are now in position " << score << "\n";
+
+    // This switch statement provides the cases for either a snake or a ladder which correspond to the game board
     switch(score) {
+        default:
+            score = score;
+            break;
         case 99:
             score = 69;
             break;

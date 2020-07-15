@@ -5,9 +5,8 @@
 #include "draw.h"
 #include <iostream>
 
-
+// Locations of snakes and ladders displayed
 void board() {
-    system("CLS");
     std::cout << "\n\n";
     draw_line(50, '-');
     std::cout << "\n\t\t SNAKE AT POSITION\n";
@@ -20,6 +19,7 @@ void board() {
     draw_line(50, '_');
 }
 
+// The player's positons are updated and displayed
 void gamescore(char name1[], char name2[], int p1, int p2)
 {
     std::cout << "\n";
