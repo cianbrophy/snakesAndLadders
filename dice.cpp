@@ -25,6 +25,7 @@ void play_dice(int &score)
     std::cout << "You are now in position " << score << "\n";
 
     // This switch statement provides the cases for either a snake or a ladder which correspond to the game board
+    // The possibilities of exceeding 100 are also included
     switch(score) {
         default:
             score = score;
@@ -68,6 +69,22 @@ void play_dice(int &score)
         case 68:
             score = 98;
             break;
+        case 101:
+            score = 99;
+            break;
+        case 102:
+            score = 98;
+            break;
+        case 103:
+            score = 97;
+            break;
+        case 104:
+            score = 96;
+            break;
+        case 105:
+            score = 97;
+            break;
+
     }
 
     }

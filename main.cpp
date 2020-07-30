@@ -34,7 +34,7 @@ int main() {
     int lastposition = 0;
 
     // This while loop proceeds until one player reachs 100
-    while(player1 <= 100 && player2 <= 100) {
+    while(player1 <= 106 && player2 <= 106) {
 
         // The locations of the snakes and ladders are displayed to the user
         board();
@@ -61,6 +61,16 @@ int main() {
             std::cout << "You landed on a ladder, you are now at position " << player1 << "\n";
         }
 
+        // If the player goes over 100, they are moved back the correct number of positions
+        else if (player1 > 100) {
+            std::cout << "You have exceeded 100, you are now at position " << player1 << "\n";
+        }
+
+        // Once the player reaches 100, they win the game
+        else if (player1 == 100) {
+            break;
+        }
+
         // The same set of events happen for player 2
         std::cout << "\n\n--->" << player2name << " ,it is your Turn >> Press any key to play ";
         getchar();
@@ -71,12 +81,17 @@ int main() {
         } else if (player2 > lastposition + 6) {
             std::cout << "You landed on a ladder, you are now at position " << player2 << "\n";
         }
+        else if (player2 > 100) {
+            std::cout << "You have exceeded 100, you are now at position " << player2 << "\n";
+        }
+        else if (player2 == 100) {
+            break;
+        }
     }
-
-    // The result is reached once one player exceeds 100
+    // The result is reached once one player reaches 100
     std::cout << "\n\n\n";
     draw_line(50, '+');
-    std::cout << "\n\n\t\tRESULT\n\n";
+    std::cout << "\n\n\t\t\t\t RESULT\n\n";
     draw_line(50, '+');
     gamescore(player1name, player2name, player1, player2);
     std::cout << "\n\n\n";

@@ -6,30 +6,12 @@
 
 #IncludeRegexTransform: 
 
-/Users/cianbrophy/Desktop/snakesladders/dice.cpp
-dice.h
 /Users/cianbrophy/Desktop/snakesladders/dice.h
-cstdlib
--
-iostream
--
-ctime
--
-
-/Users/cianbrophy/Desktop/snakesladders/dice.h
-
-/Users/cianbrophy/Desktop/snakesladders/draw.cpp
-iostream
--
-draw.h
-/Users/cianbrophy/Desktop/snakesladders/draw.h
 
 /Users/cianbrophy/Desktop/snakesladders/draw.h
 
 /Users/cianbrophy/Desktop/snakesladders/main.cpp
 iostream
--
-cstdlib
 -
 cstdio
 -
